@@ -28,13 +28,13 @@
 #     app.run(debug=True)
 
 
-from flask import Flask, render_template, request, jsonify
-from gradio_client import Client
+# from flask import Flask, render_template, request, jsonify
+# from gradio_client import Client
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
 # Initialize Gradio client
-gradio_client = Client("https://645cc229ed35dea3ba.gradio.live/")
+gradio_client = Client("https://phoen1x-mixtral-46-7b-chat.hf.space/--replicas/9y1c6/")
 
 # Store conversation history
 conversation_history = []
@@ -63,5 +63,5 @@ def chatbot():
         # Return the conversation history as JSON
         return jsonify({'conversation': conversation_history})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
