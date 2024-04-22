@@ -2,4 +2,7 @@
 Lib/site-packages/
 Scripts/
 pyvenv.cfg
+requirements.txt
+app.yaml
+
 
