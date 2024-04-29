@@ -33,5 +33,5 @@ def chatbot():
         # Return the conversation history as JSON
         return jsonify({'conversation': conversation_history})
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
