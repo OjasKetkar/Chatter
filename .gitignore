@@ -4,7 +4,7 @@ Scripts/
 pyvenv.cfg
 requirements.txt
 app.yaml
-
+.gitignore
 .venv
 
 node_modules
