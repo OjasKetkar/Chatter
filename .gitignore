@@ -5,6 +5,6 @@ pyvenv.cfg
 requirements.txt
 app.yaml
 
-
+.venv
 
 node_modules

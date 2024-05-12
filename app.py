@@ -4,7 +4,7 @@ from gradio_client import Client
 app = Flask(__name__)
 
 # Initialize Gradio client
-gradio_client = Client("https://f412ebc29f3e7fd571.gradio.live/")
+gradio_client = Client("https://phoen1x-mixtral-46-7b-chat.hf.space/--replicas/tsgci/")
 
 # Store conversation history
 conversation_history = []
