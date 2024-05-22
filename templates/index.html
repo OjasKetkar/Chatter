@@ -223,7 +223,7 @@
                 </div>
             </div> 
         </div>  -->
-        <form action="/chatbot" method="post" class="bot-form">
+        <form action="/" method="post" class="bot-form">
             <label for="user_input" >Enter your message:</label>
             <input type="text" id="user_input" name="user_input" class="bot-input" required>
             <button type="submit" class="botBtn">Send</button>
@@ -506,7 +506,7 @@
                 const userInput = document.getElementById('user_input').value;
     
                 // Make a POST request to the /chatbot endpoint
-                fetch('/chatbot', {
+                fetch('/chat', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',

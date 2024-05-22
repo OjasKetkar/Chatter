@@ -2,9 +2,10 @@
 Lib/site-packages/
 Scripts/
 pyvenv.cfg
-requirements.txt
 app.yaml
 .gitignore
 .venv
+Dockerfile
+docker-compose.yaml
 
 node_modules
